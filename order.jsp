@@ -1,26 +1,25 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>	Admin:All Orders</title>
-<%@include file="allCss.jsp" %>
+<meta charset="ISO-8859-1">
+<title>Order</title>
+<%@include file="all_component/allCss.jsp"%>
 </head>
-<body>
-<%@include file="navbar.jsp" %>
-<h3 class="text-center">Hello Admin</h3>
-<table class="table">
-  <thead class="thead-dark">
+<body style="background-color:#f0f1f2;">
+<%@include file="all_component/navbar.jsp"%>
+<div class="container p-1">
+<h3 class="text-center text-primary">Your Order</h3>
+<table class="table table-striped">
+  <thead class="bg-primary text-white mt-3">
     <tr>
-      <th scope="col"> order Id</th>
+      <th scope="col">Order Id</th>
       <th scope="col">Name</th>
-      <th scope="col">Email</th>
-      <th scope="col">Address</th>
-       <th scope="col">Phone</th>
-        <th scope="col">Customer</th>
-        <th scope="col">Price</th>
-         <th scope="col">Payment type</th>
+      <th scope="col">Services Name</th>
+      <th scope="col">Customer</th>
+       <th scope="col">Price</th>
+   <th scope="col">Payment Mode</th>
     </tr>
   </thead>
   <tbody>
@@ -29,45 +28,14 @@
       <td>Mark</td>
       <td>Otto</td>
       <td>@mdo</td>
-      <td>@mdo</td>
-       <td>@mdo</td>
-             <td>@fat</td>
-             <td>@fat</td>
-       
-       
-      
-          </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-       <td>@fat</td>
-        <td>@fat</td>
-           <td>@fat</td>
-           <td>@fat</td>
-        
-  
+            <td>@mdo</td>
+            <td>@mdo</td>
     </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-      <td>@mdo</td>
-      <td>@fat</td>
-            <td>@fat</td>
-            <td>@fat</td>
-   
-    </tr>
-  </tbody>
+      </tbody>
 </table>
-<div>
-<div>
 
-<div style="margin-top:300px;"></div>
-<%@include file="footer.jsp" %>
-</div>
+
+
 
 
 </div>
